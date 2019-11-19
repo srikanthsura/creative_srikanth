@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+    <section class="wrapper">
+        <section class="login display_flex">
+            <div class="leftContainer">
+                <form>
+                    <h1>Login Form</h1>
+                    <div class="enterDtls" style="width: 96%;">
+                        <span>*Enter Email</span>
+                        <input id="email_id" type="email" name="Email" placeholder="Enter Email" required>
+                        <label class="error_form" id="email_error_message">*</label>
+                    </div>
+                    <div class="enterDtls" style="width: 96%;">
+                        <span>*Enter Password</span>
+                        <input id="pass_word" type="Password" name="password" placeholder="Enter Password" required>
+                        <label class="error_form" id="password_error_message">*</label>
+                    </div>
+                </form>
+                <div class="submit">
+                    <button id="log_in" type="submit">Login</button>
+                    <a href="registrationForm.html"><span>New Person?Register</span></a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="js/loginForm.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

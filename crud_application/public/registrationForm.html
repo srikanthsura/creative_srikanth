@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+
+</head>
+<body>
+    <section class="wrapper">
+        <section class="SignUp display_flex">
+            <div class="leftContainer">      
+                <form>       
+                    <h1>Registration Form</h1>
+                    <div class="enterDtls row">
+                        <div class="inline-block col-md-6">
+                             <span>*First Name</span>
+                             <input id="first_name" type="text" name="firstname" placeholder="UserName" required>
+                             <label class="error_form" id="firstname_error_message">*</label>
+                        </div>
+                        <div class="inline-block col-md-6">
+                            <span>*Last Name</span>
+                            <input id="last_name" type="text" name="lastname" placeholder="UserName" required>
+                            <label class="error_form" id="lastname_error_message">*</label>
+                        </div>
+                    </div>
+                    <div class="enterDtls">
+                        <span>*Enter Email</span>
+                        <input id="email_id" type="email" name="Email" placeholder="Enter Email" required>
+                        <label class="error_form" id="email_error_message">*</label>
+                    </div>
+                    <div class="enterDtls">
+                        <span>*Mobile number</span>
+                        <input id="mobile_number" type="number" name="mbl-number" placeholder="Mobile number" required maxlength="10">
+                        <label class="error_form" id="moblie_error_message">*</label>
+                    </div>
+                    <div class="enterDtls">
+                        <span>*Password</span>
+                        <input id="pass_word" type="password" name="password" placeholder="Password" required>
+                        <label class="error_form" id="password_error_message">*</label>
+                    </div>
+                     <div class="enterDtls">
+                         <span>*Confirm Password</span>
+                         <input id="confirm_password" type="password" name="confirm password" placeholder="Confirm Password" required>
+                         <label class="error_form" id="confirm_password_error_message">*</label>
+                     </div>
+                </form>
+                <div class="submit"> 
+                    <button id="registration" type="submit">Register</button>
+                    <a href="loginForm.html" type="submit">
+                        <span>Existing User?Login</span>
+                    </a>
+                </div>          
+            </div>
+        </section>
+    </section>
+    <script src="js/registrationForm.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

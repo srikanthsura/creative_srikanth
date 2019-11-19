@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML crud with pure JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="row">
+                <div class="inline-block">
+                    <h1>CRUD Operations</h1>
+                </div>
+                <div class="inline-block floatRight">
+                    <a href="loginForm.html">Login</a> 
+                    <span> | </span>
+                    <a href="registrationForm.html">Register</a>
+                </div>
+            </div>
+        </header>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit()" autocomplete="on">
+                        <div>
+                            <label>Student Id</label>
+                            <label class="validation-error hide" id="studentIdValidationError">This feild is
+                                mandatory</label>
+                            <input type="number" name="studentId" id="student_id" required>
+                        </div>
+                        <div>
+                            <label>Student Name</label>
+                            <label class="validation-error hide" id="studentNameValidationError">This feild is
+                                mandatory</label>
+                            <input type="text" name="studentName" id="student_name" required>
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label>Class</label>
+                            <input type="text" name="class" id="class" required>
+                        </div>
+                        <div>
+                            <label>Passedout Year</label>
+                            <input type="number" name="year" id="year" required>
+                        </div>
+                        <div>
+                            <label>City</label>
+                            <input type="text" name="city" id="city" required>
+                        </div>
+                        <div>
+                            <label>Country</label>
+                            <input type="text" name="country" id="country" required>
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="list" id="studentList">
+                        <thead>
+                            <tr>
+                                <th>Student ID</th>
+                                <th>Student Name</th>
+                                <th>Email</th>
+                                <th>Class</th>
+                                <th>Year</th>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <footer>
+            <p>@copyright designed by it solutions</p>
+        </footer>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

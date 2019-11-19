@@ -1,0 +1,24 @@
+{
+  "registrationDetails": [
+    {
+      "FirstName": "vikram",
+      "LastName": "Mouse",
+      "MailId": "vikram13ashok@gmail.com",
+      "MobileNumber": "7569641063",
+      "Password": "vikram123",
+      "id": 1
+    }
+  ],
+  "studentDetails": [
+    {
+      "studentId": "1",
+      "studentName": "srikanth",
+      "email": "srikanthsura0@gmail.com",
+      "class": "b.tech1",
+      "year": "13214",
+      "city": "Allagadda",
+      "country": "India",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00000050;
+    padding: 40px 0px;
+}
+.login, .SignUp {
+    color: #212121;
+    margin: 0 auto;
+    border-radius: 2px;
+    /* height: 553px; */
+    max-width: 838px;
+    background-color: white;
+}
+.display_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+} 
+form h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fb641b;
+}
+.leftContainer {
+    width: 60%;
+    padding: 20px; 
+    background-color: #fff;
+    margin: 0px auto; 
+} 
+.enterDtls {
+    clear: both;
+    margin-bottom: 20px;
+} 
+.enterDtls span {
+    font-size: 18px; 
+    display: inline-block;
+    color: #25bf25;
+} 
+.enterDtls input[type="email"],
+.enterDtls input[type="number"],
+.enterDtls input[type="password"],
+.enterDtls input[type="text"],
+select {
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+} 
+.error_form {
+    font-size: 15px;
+    font-family: Arial;
+    color: #FF0052;
+} 
+#login_type {
+    border: 2px solid #ccc;
+} 
+.enterDtls a {
+    float: right;
+    text-decoration: none;
+    font-family: arial;
+    margin-bottom: 10px;
+    color: blue;
+} 
+button {
+    width: 49%;
+    font-size: 22px;
+    background-color: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+} 
+.submit a {
+    width: 49%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: arial;
+    color: blue;
+    cursor: pointer;
+} 
+.submit a span {
+    padding: 15px;
+    display: inline-block;
+} 
+header {
+    background-color: #97dd3975;
+}
+header h1{
+    font-size: 30px;
+    color: #c705bb;
+}
+header a,
+header span {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: skyblue;
+    padding: 28px;
+    color: white;
+}
+.floatRight{
+    float: right;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+table {
+    border-collapse: collapse;
+}
+table.list {
+    width: 100%;
+}
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+tr:nth-child(even), table.list thead > tr {
+    background-color: #ddd;
+}
+input[type=text], input[type=number], input[type=email] {
+    width: calc(100% - 40px);
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form div.form-action-buttons {
+    text-align: right;
+}
+label.validation-error{
+    color: red;
+    margin-left: 8px;
+}
+.hide{
+    display: none; 
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #97dd3975;
+}
+
+@media screen and (max-width:760px) {
+
+    .inline-block {
+        display: block;
+    } 
+    .rightContainer {
+        width: 100%;
+        padding: 40px 0px;
+    } 
+    .rightContainer h1 {
+        font-size: 30px;
+        margin: 0px;
+        text-align: center;
+    } 
+    .rightContainer p {
+        display: none;
+    } 
+    .rightContainer img {
+        display: none;
+    } 
+    .leftContainer {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
